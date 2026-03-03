@@ -49,10 +49,24 @@
         table{
             align-items: right;
         }
-        img{
-            align-items: center;
+        div{
+            display: block;
+            text-align: center;
+            
         }
+        div.logo{
+                width: 50%; 
+                background-color: yellow;
+               
+                
 
+            }
+        .logo img{
+            height: 200px;
+        }
+        div.video{
+                width: 25%;
+        }
     </style>
 </head>
 <body>
@@ -63,21 +77,29 @@
     <p>Ez egy sima szöveg</p>
     <p class="egyedi">etete</p>
 
-    <table border="1">
+    <div>
+        <table border="1" align="center">
+                <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
         <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-    </table>
-    
-    <img src="picture/funny-cat-memes-go-hard-cover_675.jpg" style="height: 200px;" />
-    <video src="file_example_MP4_480_1_5MG.mp4"></video>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/9wHxN47qf5c?si=BhpsS0FkFXl3do84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        </table>
+    </div>
 
+    <div class="logo">
+        <img src="picture/funny-cat-memes-go-hard-cover_675.jpg" />
+    </div>
 
+    <div class="video">
+         <video src="file_example_MP4_480_1_5MG.mp4"></video>
+    </div>
+
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9wHxN47qf5c?si=BhpsS0FkFXl3do84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </body>
 </html>
