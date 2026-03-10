@@ -11,3 +11,9 @@ git push -u origin main
 git remote add origin https://github.com/BalogBVendel/html-alapok.git
 git branch -M main
 git push -u origin main
+
+OTTHON:
+teszt mappa létrehozása
+get init
+git remove add origin https://github.com/neved/html-alakpok.git
+git pull origin main
